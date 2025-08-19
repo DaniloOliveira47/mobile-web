@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 body {
@@ -9,20 +10,51 @@ body {
 
 .container {
     background: #fff;
-    max-width: 1064px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
 /* Criando o Header */
 header {
-    background: orangered;
+    background: brown;
     /* Altura */
     height: 130px;
-    border-bottom: 3px solid yellow;
+    border-bottom: 3px solid orangered;
     /* Flexbox */
     display: flex;
     align-items: center;
 }
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 20px;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+.nav li {
+    background-color: brown;
+    border: 1px solid orangered;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgb(241, 0, 0);
+    width: 100%;
+    max-width: 150px;
+    text-align: center;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+
 
 header img {
     margin-left: 15px;
