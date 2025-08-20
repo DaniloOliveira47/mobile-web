@@ -28,7 +28,7 @@ header {
 .nav {
     display: flex;
     justify-content: space-between;
-  background-color: brown;
+    background-color: brown;
     list-style-type: none;
 
     text-transform: uppercase;
@@ -40,10 +40,10 @@ header {
     background-color: brown;
     border: 1px solid orangered;
     padding: 10px;
-  
-   
+
+
     width: 100%;
-    
+
     text-align: center;
 }
 
@@ -54,6 +54,7 @@ header {
     font-size: 20px;
     color: white;
 }
+
 header img {
     margin-left: 15px;
     margin-right: 20px;
@@ -66,9 +67,44 @@ header h2 {
 }
 
 .contentBox {
-    margin: 20px;
-    border: 1px solid orangered;
+    margin: 31px;
+  margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
 }
-.box{
+
+.box {
     max-width: 300px;
+    border: 1px solid black;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(255, 0, 0, 0.418);
+}
+
+.box img {
+    border-bottom: 2px solid orangered;
+
+}
+
+.box p {
+    padding: 10px;
+    text-align: center;
+
+}
+
+.box a {
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    display: block;
+    color: brown;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.box a:hover {
+    background-color: brown;
+    color: white;
 }
