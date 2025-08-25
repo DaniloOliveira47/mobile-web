@@ -1,0 +1,65 @@
+/* Estilos Específicos para a Página Sobre */
+
+/* Seção sobre */
+.contentSobre {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+}
+
+.contentSobre p {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Seção de Missão, Visão e Valores */
+.mission-vision-values {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.mission, .vision, .values {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.mission h2, .vision h2, .values h2 {
+    color: brown;
+}
+
+.mission p, .vision p, .values ul {
+    font-size: 1em;
+    color: #555;
+}
+
+.mission p, .vision p {
+    margin-top: 10px;
+}
+
+/* Seção Equipe */
+.team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+/* Equipe */
+.team {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/* Ajustando a largura da equipe */
+.team-member {
+    width: 200px;
+}
+
